@@ -1,7 +1,7 @@
 # Iris
 
-**Iris makes documents and screens readable by a blind person working alone, without handing
-them to a stranger.**
+**Iris turns anything you would have to look at — a page, a screen, a room — into something you
+can ask. Built for blind people. New for everyone.**
 
 Documents are where we start. How the service converts one is documented in
 [equalify-iris](https://github.com/EqualifyEverything/equalify-iris).

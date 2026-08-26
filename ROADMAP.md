@@ -7,6 +7,13 @@ far phases are directions, not commitments. It follows the arc laid out in
 [**Iris: Beyond Solving Blindness**](https://philosophers.group/iris-beyond-solving-blindness/)
 — documents are the proving ground, not the destination.
 
+**The arc.** Every phase solves a problem for blind people first, and every phase leaves
+behind something anyone can use. Phase 1 makes a document answerable. Phase 2 makes it
+actionable. Phase 3 puts that everywhere documents live. Phases 4 through 7 turn the same
+capability on the rest of the visual world. Read down the left and it is accessibility work.
+Read down the right and it is a new way for anyone to deal with what is in front of them —
+the same build, and the reason this is worth funding.
+
 Every phase below is bound by the three rules in [PRD.md](PRD.md): plain language,
 AGPL-3.0-or-later, and it runs on what people already have. A phase that can only be reached
 by breaking one of them is not on this roadmap yet.
@@ -32,6 +39,9 @@ information accurately enough to be trusted.
   best configuration, side by side. A release that raises invented content does not ship.
 - Deployment anyone can stand up in under a day, on one rentable GPU
 
+*And for everyone:* any document becomes something you can ask questions of, rather than a
+page you have to find your way around.
+
 **Open gaps in Phase 1, as of this writing.** The WordPress plugin repo is empty and carries
 no licence. The deployment repo is not publicly readable. Until both are fixed, the PRD's
 "someone outside this team sets Iris up from the public repos" cannot be met.
@@ -45,6 +55,8 @@ form needs to fill it in and send it back — without a third party in the middl
 - Filled, signed, submitted, without sighted assistance
 - Delivered as a public app, not just a service for developers
 
+*And for everyone:* paperwork you can talk your way through instead of reading.
+
 ## Phase 3 — Documents at scale, everywhere they live
 
 The billions of documents already published, in the systems people already use. The work here
@@ -54,11 +66,15 @@ is reach, not new capability.
 - Conversion as an automatic property of publishing, invisible to editors
 - Institutions running it across their whole footprint
 
+*And for everyone:* the web stops hiding its contents inside files nobody can search.
+
 ## Phase 4 — The agents outgrow documents
 
 Iris improves itself through an agentic feedback loop: when content isn't articulated
 properly, an agent writes a fix and submits it for review. As document problems are exhausted,
 that loop turns outward to problems that aren't documents.
+
+*And for everyone:* software that repairs what it got wrong instead of waiting on a release.
 
 - Interpretation generalizes past the page
 - Self-extension becomes the primary way capability grows. Iris proposes repairs for its own
@@ -75,6 +91,10 @@ can also speak to the device, it can operate it.
 - No screen reader, no per-device accessibility settings, no waiting on manufacturers
 - Iris as the accessibility interface: a universal layer between people and the visual
   technology around them
+
+*And for everyone:* every device gets a voice, including the ones whose makers never gave them
+one. This is where the work stops reading as accessibility and starts reading as a new way to
+use everything.
 
 New hardware never becomes the only way in. Everything from here on has to keep working for
 someone holding an ordinary phone, or it is just an expensive product with our name on it.
