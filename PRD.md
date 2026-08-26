@@ -4,7 +4,7 @@
 
 **Point Iris at anything. Ask about it. Act on the answer.**
 
-**Built for blind people. New for everyone.**
+**Built for blind people. Made for everyone.**
 
 ## Why
 

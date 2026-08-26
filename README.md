@@ -2,7 +2,7 @@
 
 **Point Iris at anything. Ask about it. Act on the answer.**
 
-**Built for blind people. New for everyone.**
+**Built for blind people. Made for everyone.**
 
 Documents are where we start. How the service converts one is in
 [equalify-iris](https://github.com/EqualifyEverything/equalify-iris).
