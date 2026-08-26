@@ -9,20 +9,18 @@ everyone.**
 
 A blind person hits a wall several times a day. A PDF that reads as nothing. A form that needs
 a stranger to fill it in. A ticket machine with no voice. A pill bottle that could be anything.
-They stay up because removing them has never made money.
 
 AI has made the visual world answerable. Today's tools describe a photograph and stop, belong to
-someone else, and send what the camera caught to their servers. Build it for the person who
-cannot see at all and you get what nobody had: ask what is in front of you, then act. Curb cuts
-were built for wheelchairs; everyone uses them, and they never stopped working for wheelchairs.
+someone else, and send what the camera caught to their servers. Iris takes follow-up questions,
+acts on the answers, and runs on hardware the person controls.
 
 Documents are the proving ground, not the destination.
 
 ## Who
 
-A blind or low-vision person, anywhere, on the device they own. Then publishers, developers,
-and anyone who cannot look right now — hands full, driving, in the dark, holding a language they
-do not read.
+A blind or low-vision person, anywhere, on the device they own. Then publishers, developers, and
+anyone who cannot look right now — hands full, driving, in the dark, holding a language they do
+not read. Built for the first; everyone else inherits it.
 
 Blind people hold the veto: when a change helps anyone else at their cost we do not ship it, and
 blind reviewers decide when that happened.
@@ -62,8 +60,8 @@ anyone can download with no account and no wait.
 Not kept, not trained on, not shown to anyone, unless the person plainly chooses it. Error
 reports carry no content. What helped fix a bug in the open cannot be withdrawn, so we only ask
 for what we could stand behind publishing. This covers what a person hands Iris, not what an
-institution publishes. A camera catches more than it was aimed at, and its holder is least able
-to check. Iris exists to remove the stranger in the middle. It must never become one.
+institution publishes. A camera catches more than it was aimed at, and the person holding it
+cannot check. Iris must not become the stranger it exists to remove.
 
 ## Cost and access
 
@@ -74,14 +72,15 @@ the public one runs on grants, and queues rather than closes.
 
 ## What Iris must do
 
-- **Answer, don't just describe.** One description is never enough; a person asks again, closer.
+- **Answer, don't just describe.** A person asks follow-up questions until they have what they
+  came for.
 - **Say where it could not read.** One marker per place with a reason, never a blanket
   disclaimer. Detection is by evidence, not the model's confidence.
 - **Never stand in for the original.** Output says it is machine-made and links the source. Iris
   submits nothing without a step the person controls, and flags where a misreading cannot be
   undone: medical, legal, financial.
-- **Act.** Reading a form is half of it. Where Iris can speak to a thing, the person tells it
-  what to do and stays in charge.
+- **Act.** Where Iris can speak to a thing, the person tells it what to do and stays in charge.
+  Reading a form is not finishing it.
 
 ## How we measure success
 
