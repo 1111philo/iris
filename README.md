@@ -19,6 +19,7 @@ part keeps its own repo, listed below.
 | --- | --- |
 | [PRD.md](PRD.md) | Product requirements for Iris as a whole — the problem, who it's for, what it must do |
 | [ROADMAP.md](ROADMAP.md) | Where the project is going, in what order, and what is done |
+| [Iris: Beyond Solving Blindness](https://philosophers.group/iris-beyond-solving-blindness/) | The vision the roadmap follows — why documents are the proving ground and not the destination |
 
 Per-component requirements and design live in each component's own repo. This repo holds the
 requirements that span them.
