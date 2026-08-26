@@ -34,8 +34,7 @@ Three rules hold in every phase and every repo. [PRD.md](PRD.md) has the reasoni
 3. **Powerful tools for everyone.** Nobody is shut out by their device, connection, or money,
    and nobody gets a lesser Iris for it. A cheap phone on a bad connection is what we build for,
    and it caps nothing — the phone is where the answer arrives, not where the work happens.
-   Always a path that runs on one rentable GPU, which is not true yet: today the service runs
-   only on hosted, proprietary providers, and fixing that is Phase 1 work.
+   Always a path that runs on one rentable GPU.
 
 ## Projects
 

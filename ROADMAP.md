@@ -34,9 +34,9 @@ information accurately enough to be trusted.
 
 - Image-to-accessible-HTML service, AGPL-3.0-or-later
 - Output that loads on a cheap phone over a bad connection and needs no JavaScript to read
-- A configuration built only from freely licensed weights and self-hostable software. **This
-  does not exist yet** — the service ships hosted-provider adapters only, and closing that gap
-  is Phase 1 work.
+- A tested configuration built only from freely licensed weights and self-hostable software.
+  The provider adapter is OpenAI-shaped and the model is configuration, so this is a matter of
+  proving and documenting it, not of writing a new adapter.
 - Per page, published every release on a public corpus fixed before we test: fidelity against
   a human transcript, reading-order and table correctness, invented-content rate,
   dropped-content rate, time, and cost with the hardware it assumes. Free configuration and

@@ -71,13 +71,6 @@ for what we could stand behind publishing. This covers what a person hands Iris,
 institution publishes. A camera catches more than it was aimed at, and the person holding it
 cannot check. Iris must not become the stranger it exists to remove.
 
-## Cost and access
-
-**Today Iris runs only on proprietary providers.** Changing that is Phase 1 work. Every release
-publishes the free configuration's numbers beside the best. Paying buys speed, never better
-answers or more rights. We never charge a person to read. Whoever runs an instance pays for it;
-the public one runs on grants, and queues rather than closes.
-
 ## What Iris must do
 
 - **Answer, don't just describe.** A person asks follow-up questions until they have what they
