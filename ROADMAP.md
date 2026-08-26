@@ -7,9 +7,9 @@ far phases are directions, not commitments. It follows the arc laid out in
 [**Iris: Beyond Solving Blindness**](https://philosophers.group/iris-beyond-solving-blindness/)
 — documents are the proving ground, not the destination.
 
-Every phase below is bound by the three rules in [PRD.md](PRD.md): plain language, AGPL v3,
-and it runs on what people already have. A phase that can only be reached by breaking one of
-them is not on this roadmap yet.
+Every phase below is bound by the three rules in [PRD.md](PRD.md): plain language,
+AGPL-3.0-or-later, and it runs on what people already have. A phase that can only be reached
+by breaking one of them is not on this roadmap yet.
 
 ---
 
@@ -21,11 +21,20 @@ Convert inaccessible documents into accessible HTML. A PDF that a screen reader 
 becomes a real web page that it can. Prove the core claim: that software can interpret visual
 information accurately enough to be trusted.
 
-- Image-to-accessible-HTML service, AGPL v3
+- Image-to-accessible-HTML service, AGPL-3.0-or-later
 - Output that loads on a cheap phone over a bad connection and needs no JavaScript to read
-- Measurable success rate, latency, and cost per page over a real-world corpus — published
-  for the free configuration and the best one, side by side
-- Deployment anyone can stand up, on hardware they can rent
+- A configuration built only from freely licensed weights and self-hostable software. **This
+  does not exist yet** — the service ships hosted-provider adapters only, and closing that gap
+  is Phase 1 work.
+- Per page, published every release on a public corpus fixed before we test: fidelity against
+  a human transcript, reading-order and table correctness, invented-content rate,
+  dropped-content rate, time, and cost with the hardware it assumes. Free configuration and
+  best configuration, side by side. A release that raises invented content does not ship.
+- Deployment anyone can stand up in under a day, on one rentable GPU
+
+**Open gaps in Phase 1, as of this writing.** The WordPress plugin repo is empty and carries
+no licence. The deployment repo is not publicly readable. Until both are fixed, the PRD's
+"someone outside this team sets Iris up from the public repos" cannot be met.
 
 ## Phase 2 — Documents can be completed
 
@@ -60,20 +69,22 @@ that loop turns outward to problems that aren't documents.
 Point Iris at a screen — phone, kiosk, ATM, appliance, ticket machine — and talk to it. If it
 can also speak to the device, it can operate it.
 
-- *Send this email. Buy this ticket. Turn the heat down. Show me my balance.*
+- The person says: *Send this email. Buy this ticket. Turn the heat down. Show me my balance.*
 - No screen reader, no per-device accessibility settings, no waiting on manufacturers
 - Iris as the accessibility interface: a universal layer between people and the visual
   technology around them
 
 New hardware never becomes the only way in. Everything from here on has to keep working for
-someone holding an ordinary phone, or it is a product for the wealthy wearing our name.
+someone holding an ordinary phone, or it is just an expensive product with our name on it.
 
 ## Phase 6 — SightOS
 
 Reading evolves into an operating system for sight. Not a tool you open, but the thing
 standing between a person and the visual world, everywhere, all the time.
 
-- Identity and consent handled by biomarkers rather than typed credentials
+- Identity and consent handled by biomarkers rather than typed credentials — which the
+  privacy rule in [PRD.md](PRD.md) does not currently permit. Either that rule changes with
+  its reasons written down, or this does.
 - The computer small enough to be worn, private enough that the data goes nowhere
 - Sight as a service the person controls
 

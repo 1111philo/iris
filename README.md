@@ -27,10 +27,11 @@ requirements that span them.
 Three rules hold everywhere in Iris, in every phase and every repo — they're set out in
 [PRD.md](PRD.md):
 
-1. **Plain language.** What Iris hands back, and everything we write about it.
-2. **AGPL v3.** Anyone may run it, anyone may sell it, nobody may take it private.
+1. **Plain language.** What Iris returns, and everything we write about it.
+2. **AGPL-3.0-or-later.** Anyone may run it, anyone may charge for it, and anyone who modifies
+   it and serves it over a network owes their own users the source.
 3. **It runs on what people have.** A cheap phone on a bad connection is the reference, and
-   any group can run all of Iris on hardware they can rent.
+   any group can run all of Iris on one rentable GPU.
 
 ## The parts
 
@@ -46,6 +47,8 @@ dependencies, a benchmark's gigabytes of cached PDFs, or one institution's deplo
 choices. What they share — the goal, the priorities, the sequencing — lives here.
 
 ## How the pieces fit
+
+The WordPress plugin and the benchmark harness both call the service; Terraform deploys it.
 
 ```
                         ┌──────────────────────┐
@@ -73,4 +76,15 @@ belong here. Bugs and changes in a specific component belong in that component's
 
 ## License
 
-GNU Affero General Public License, version 3. See [LICENSE](LICENSE).
+Copyright (C) 2026 Blake Bertuccelli-Booth. Licensed under the GNU Affero General Public
+License, version 3 or later (`AGPL-3.0-or-later`). See [LICENSE](LICENSE).
+
+This repo was relicensed from GPL-3.0 to AGPL-3.0-or-later on 26 August 2026. Relicensing
+needs every copyright holder's agreement, so that agreement should be recorded here by the
+holders themselves. There is no CLA and no copyright assignment; contributions come in under
+the same licence they go out under.
+
+The WordPress plugin is AGPL-3.0-or-later too. That is compatible with WordPress core
+(GPLv2-or-later, taken to GPLv3, via AGPLv3 §13), but it means the plugin is distributed from
+its own repo rather than the WordPress.org directory, which requires GPLv2-or-later
+compatibility.
