@@ -1,11 +1,10 @@
 # Iris
 
-**Iris turns documents that screen readers can't use into accessible web pages.**
+**Iris makes documents and screens readable by a blind person working alone, without handing
+them to a stranger.**
 
-A screen reader user clicks a PDF link and finds nothing usable. Iris takes that document —
-as a sequential set of page images — and produces a single content-only, WCAG 2.2 AA
-accessible HTML document, using specialized per-content-type agents and an iterative
-reader/copy-editor review loop.
+Documents are where we start. How the service converts one is documented in
+[equalify-iris](https://github.com/EqualifyEverything/equalify-iris).
 
 **This repo is the hub for the whole Iris project.** It carries the product requirements, the
 roadmap, and the map of which repo does what. It is not where the code lives — each moving
