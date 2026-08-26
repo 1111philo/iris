@@ -18,9 +18,7 @@ Documents are the proving ground, not the destination.
 
 ## Who
 
-A blind or low-vision person, anywhere, on the device they own. Then publishers, developers, and
-anyone who cannot look right now — hands full, driving, in the dark, holding a language they do
-not read. Built for the first; everyone else inherits it.
+Blind people first. Everyone else benefits from an interface that enhances vision.
 
 Blind people hold the veto: when a change helps anyone else at their cost we do not ship it, and
 blind reviewers decide when that happened.
