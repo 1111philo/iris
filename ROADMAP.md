@@ -7,6 +7,10 @@ far phases are directions, not commitments. It follows the arc laid out in
 [**Iris: Beyond Solving Blindness**](https://philosophers.group/iris-beyond-solving-blindness/)
 — documents are the proving ground, not the destination.
 
+**Speed is the strategy.** Iris is built agentically — agents write it, people review it — so
+that phases land in the time features used to take. The existing tools have had years and still
+stop at describing a photograph. Getting to the far phases quickly is the point, not a hope.
+
 **The arc.** Every phase solves a problem for blind people first, and every phase leaves
 behind something anyone can use. Phase 1 makes a document answerable. Phase 2 makes it
 actionable. Phase 3 puts that everywhere documents live. Phases 4 through 7 turn the same

@@ -20,6 +20,10 @@ code lives in the projects below.
 | [ROADMAP.md](ROADMAP.md) | What we build, in what order |
 | [Iris: Beyond Solving Blindness](https://philosophers.group/iris-beyond-solving-blindness/) | The vision the roadmap follows |
 
+Iris is built agentically — agents write it, people review it — so that phases land in the time
+features used to take. Existing tools have had years and still stop at describing a photograph.
+Speed is the strategy, and the three rules below are what make it safe.
+
 Three rules hold in every phase and every repo. [PRD.md](PRD.md) has the reasoning.
 
 1. **Plain language.** What Iris returns, and everything we write about it.

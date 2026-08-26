@@ -11,9 +11,11 @@
 A blind person hits a wall several times a day. A PDF that reads as nothing. A form that needs
 a stranger to fill it in. A ticket machine with no voice. A pill bottle that could be anything.
 
-AI has made the visual world answerable. Today's tools describe a photograph and stop, belong to
-someone else, and send what the camera caught to their servers. Iris takes follow-up questions,
-acts on the answers, and runs on hardware the person controls.
+AI has made the visual world answerable. Be My AI is the best of what exists — free to blind
+users, and genuinely good. It is also closed, runs on one company's model, sends what the camera
+caught to that company's servers, describes a photograph and stops, and publishes no accuracy
+numbers anyone can check. Iris takes follow-up questions, acts on the answers, runs where its
+operator chooses, and publishes what it gets wrong.
 
 We start by making PDFs and other documents accessible. That is the proving ground, not the
 destination.
@@ -87,6 +89,16 @@ the public one runs on grants, and queues rather than closes.
   undone: medical, legal, financial.
 - **Act.** Where Iris can speak to a thing, the person tells it what to do and stays in charge.
   Reading a form is not finishing it.
+
+## Speed
+
+Iris is built agentically: agents write it, people review it. That is the design, not a
+shortcut. The distance between a blind person hitting a wall and a shipped fix should be hours,
+and the rules above are what make that safe to do at speed — a fix that breaks one does not
+ship. The tools that exist have had years and still stop at describing.
+
+We go from reading documents, to operating devices, to sight itself, as fast as the work allows.
+[ROADMAP.md](ROADMAP.md) sequences it.
 
 ## How we measure success
 
