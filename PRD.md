@@ -1,6 +1,6 @@
 # Iris — Product Requirements
 
-**Version 0.1.** A draft to argue with, not a contract.
+**Version 0.1.** A draft to argue with. Not a contract yet.
 
 **Point Iris at anything. Ask about it. Act on the answer.**
 
