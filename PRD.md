@@ -51,7 +51,7 @@ may require a proprietary tool or service. Every hosted provider is a swappable 
 an interface, never a dependency, and every part deploys on infrastructure its operator picks.
 Cloud-specific deployments are examples, not the path.
 
-### 3. Tools that work for everyone
+### 3. Powerful tools for everyone
 
 Nobody is shut out by their device, their connection, or their money, and nobody gets a lesser
 Iris for it. We build for a cheap Android phone on a slow connection that drops — camera as

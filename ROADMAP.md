@@ -15,7 +15,7 @@ Read down the right and it is a new way for anyone to deal with what is in front
 the same build, and the reason this is worth funding.
 
 Every phase below is bound by the three rules in [PRD.md](PRD.md): plain language,
-AGPL-3.0-or-later, and tools that work for everyone. A phase that can only be reached
+AGPL-3.0-or-later, and powerful tools for everyone. A phase that can only be reached
 by breaking one of them is not on this roadmap yet.
 
 ---
