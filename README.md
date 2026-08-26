@@ -4,7 +4,7 @@
 
 **Built for blind people. Made for everyone.**
 
-Documents are where we start. How the service converts one is in
+We start by making PDFs and other documents accessible. The service that does it is
 [equalify-iris](https://github.com/EqualifyEverything/equalify-iris).
 
 **This repo is the hub.** It holds the requirements, the roadmap, and the list of projects. The

@@ -15,7 +15,8 @@ AI has made the visual world answerable. Today's tools describe a photograph and
 someone else, and send what the camera caught to their servers. Iris takes follow-up questions,
 acts on the answers, and runs on hardware the person controls.
 
-Documents are the proving ground, not the destination.
+We start by making PDFs and other documents accessible. That is the proving ground, not the
+destination.
 
 ## Who
 
