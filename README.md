@@ -32,41 +32,27 @@ Three rules hold everywhere in Iris, in every phase and every repo — they're s
 3. **It runs on what people have.** A cheap phone on a bad connection is the reference, and
    any group can run all of Iris on one rentable GPU.
 
-## The parts
+## Projects
 
-| Repo | What it is |
-| --- | --- |
-| [equalify-iris](https://github.com/EqualifyEverything/equalify-iris) | The service. Image-to-accessible-HTML pipeline and API. This is the core. |
-| [equalify-iris-wp](https://github.com/EqualifyEverything/equalify-iris-wp) | WordPress multisite plugin. Finds PDFs linked from published pages, converts them via Iris, publishes the accessible version, and links to it from every PDF link. |
-| [equalify-iris-bench](https://github.com/EqualifyEverything/equalify-iris-bench) | Benchmark harness. Give it a CSV of PDF URLs; it reports success rate, latency, and cost per page against any deployment. |
-| [iris.equalify.uic.edu](https://github.com/UIC-OSF/iris.equalify.uic.edu) | Terraform for the UIC test deployment. One EC2 box running the service behind Caddy. |
+A running list, not a finished architecture. Iris is built as separate projects, and this list
+grows as the roadmap opens new phases. Everything here is Phase 1.
 
-Each part stays separate on purpose: the service does not carry a WordPress plugin's
-dependencies, a benchmark's gigabytes of cached PDFs, or one institution's deployment
-choices. What they share — the goal, the priorities, the sequencing — lives here.
+| Project | What it is | State |
+| --- | --- | --- |
+| [equalify-iris](https://github.com/EqualifyEverything/equalify-iris) | The service. Image-to-accessible-HTML pipeline and API. This is the core. | Active |
+| [equalify-iris-bench](https://github.com/EqualifyEverything/equalify-iris-bench) | Benchmark harness. Give it a CSV of PDF URLs; it reports success rate, latency, and cost per page against any deployment. | Active |
+| [equalify-iris-wp](https://github.com/EqualifyEverything/equalify-iris-wp) | WordPress multisite plugin. Finds PDFs linked from published pages, converts them, publishes the accessible version, and links to it from every PDF link. | Repo is empty and unlicensed |
+| [iris.equalify.uic.edu](https://github.com/UIC-OSF/iris.equalify.uic.edu) | Terraform for the UIC test deployment. One EC2 box running the service behind Caddy. | Not publicly readable |
 
-## How the pieces fit
+The plugin and the benchmark harness both call the service; Terraform deploys it.
 
-The WordPress plugin and the benchmark harness both call the service; Terraform deploys it.
+They stay separate on purpose: the service does not carry a WordPress plugin's dependencies, a
+benchmark's gigabytes of cached PDFs, or one institution's deployment choices. What they share
+— the rules, the priorities, the sequencing — lives here.
 
-```
-                        ┌──────────────────────┐
-   PDFs on a WP         │   equalify-iris-wp   │
-   multisite     ─────► │  (plugin: discover,  │ ─────┐
-                        │  convert, publish)   │      │
-                        └──────────────────────┘      │
-                                                      ▼
-   A CSV of             ┌──────────────────────┐   ┌────────────────────┐
-   PDF URLs      ─────► │ equalify-iris-bench  │──►│   equalify-iris    │
-                        │ (measure success,    │   │  (the service API) │
-                        │  latency, cost)      │   └────────────────────┘
-                        └──────────────────────┘             ▲
-                                                             │ deployed by
-                                                  ┌────────────────────────┐
-                                                  │ iris.equalify.uic.edu  │
-                                                  │  (Terraform, AWS)      │
-                                                  └────────────────────────┘
-```
+**Adding a project.** Open an issue here first. A new project needs a phase it serves and a
+reason it is not part of an existing one. The three rules apply to it from its first commit,
+and it gets a row above on its first day, whatever state it is in.
 
 ## Contributing
 
