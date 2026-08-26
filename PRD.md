@@ -2,8 +2,8 @@
 
 **Version 0.1.** A draft to argue with, not a contract.
 
-**Iris turns anything you would have to look at — a page, a screen, a room — into something you
-can ask. Built for blind people. New for everyone.**
+**Point Iris at anything. Ask about it. Act on the answer. Built for blind people. New for
+everyone.**
 
 ## Why
 
@@ -48,12 +48,14 @@ and a hosted service never distributes. Anyone may run Iris or charge for it; an
 modifies it and serves it over a network owes their users the source. What is released stays
 free.
 
-### 3. It runs on what people have
+### 3. Cheap devices, best tools
 
-One person: a cheap Android phone on a slow connection that drops, camera as well as screen.
-Output is plain HTML that works with JavaScript off, images referenced not inlined. Braille and
-large print are first-class, not exports. Every part runs on one rentable GPU, from files anyone
-can download with no account and no wait.
+A cheap Android phone on a slow connection that drops — camera as well as screen — is what we
+build for, and it caps nothing. The phone is where the answer arrives, not where the work
+happens, so Iris uses the most accurate tools it can reach. What comes back is plain HTML that
+works with JavaScript off, images referenced not inlined. Braille and large print are
+first-class, not exports. There is always a path that runs on one rentable GPU, from files
+anyone can download with no account and no wait.
 
 ## Privacy
 
