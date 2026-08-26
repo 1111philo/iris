@@ -4,19 +4,21 @@
 
 **Built for blind people. Made for everyone.**
 
-We start by making PDFs and other documents accessible. The service that does it is
-[equalify-iris](https://github.com/EqualifyEverything/equalify-iris).
+<img src="docs/stevie-wonder-1973.jpg" alt="Stevie Wonder in 1973, wearing dark sunglasses, leaning toward a studio microphone." width="260" align="right">
 
-<img src="docs/stevie-wonder-1973.jpg" alt="Stevie Wonder in 1973, wearing dark sunglasses, leaning toward a studio microphone." width="320">
+**The first mission of Iris is to impress Stevie Wonder.**
 
-**The first mission of Iris is to impress Stevie Wonder.** He spent years driving the Marrakesh
-Treaty through the UN so blind readers could get books at all, and told the Grammys that every
-single thing should be accessible to every single person with a disability. He is the hardest
-audience this work has, and he has not been asked — everything up to that demo is what
-[PRD.md](PRD.md) covers.
+He spent years driving the Marrakesh Treaty through the UN so blind readers could get books at
+all, and told the Grammys that every single thing should be accessible to every single person
+with a disability.
+
+He is the hardest audience this work has, and he has not been asked. Everything up to that demo
+is what [PRD.md](PRD.md) covers.
 
 <sub>Photo: Motown Records, 21 August 1973. Public domain
 ([Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stevie_Wonder_1973.JPG)).</sub>
+
+<br clear="all">
 
 **This repo is the hub.** It holds the requirements, the roadmap, and the list of projects. The
 code lives in the projects below.
