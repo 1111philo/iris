@@ -61,7 +61,9 @@ properly, an agent writes a fix and submits it for review. As document problems 
 that loop turns outward to problems that aren't documents.
 
 - Interpretation generalizes past the page
-- Self-extension becomes the primary way capability grows
+- Self-extension becomes the primary way capability grows. Iris proposes repairs for its own
+  errors; a maintainer approves them, and a blind reviewer approves any that touch what a
+  reader receives.
 - The corpus of "things Iris can read" stops being a list we maintain
 
 ## Phase 5 — Any interface, spoken to
