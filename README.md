@@ -27,10 +27,11 @@ Three rules hold in every phase and every repo. [PRD.md](PRD.md) has the reasoni
    serve it over a network and you owe your users the source. Nothing in Iris may require a
    proprietary tool or service — a licence to run it is worthless if it only runs on one
    company's platform.
-3. **Cheap devices, best tools.** A cheap phone on a bad connection is what we build for, and
-   it caps nothing. The phone is where the answer arrives, not where the work happens. Always a
-   path that runs on one rentable GPU — which is not true yet: today the service runs only on
-   hosted, proprietary providers, and fixing that is Phase 1 work.
+3. **Tools that work for everyone.** Nobody is shut out by their device, connection, or money,
+   and nobody gets a lesser Iris for it. A cheap phone on a bad connection is what we build for,
+   and it caps nothing — the phone is where the answer arrives, not where the work happens.
+   Always a path that runs on one rentable GPU, which is not true yet: today the service runs
+   only on hosted, proprietary providers, and fixing that is Phase 1 work.
 
 ## Projects
 

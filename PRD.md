@@ -51,12 +51,13 @@ may require a proprietary tool or service. Every hosted provider is a swappable 
 an interface, never a dependency, and every part deploys on infrastructure its operator picks.
 Cloud-specific deployments are examples, not the path.
 
-### 3. Cheap devices, best tools
+### 3. Tools that work for everyone
 
-A cheap Android phone on a slow connection that drops — camera as well as screen — is what we
-build for, and it caps nothing. The phone is where the answer arrives, not where the work
-happens, so Iris uses the most accurate tools it can reach. What comes back is plain HTML that
-works with JavaScript off, images referenced not inlined. Braille and large print are
+Nobody is shut out by their device, their connection, or their money, and nobody gets a lesser
+Iris for it. We build for a cheap Android phone on a slow connection that drops — camera as
+well as screen — and that caps nothing: the phone is where the answer arrives, not where the
+work happens, so Iris uses the most accurate tools it can reach. What comes back is plain HTML
+that works with JavaScript off, images referenced not inlined. Braille and large print are
 first-class, not exports. There is always a path that runs on one rentable GPU, from files
 anyone can download with no account and no wait.
 
