@@ -93,4 +93,16 @@ ship. The tools that exist have had years and still stop at describing.
 We go from reading documents, to operating devices, to sight itself, as fast as the work allows.
 [ROADMAP.md](ROADMAP.md) sequences it.
 
+## The demo
+
+Iris becomes an app that can see the world, and we show it to Stevie Wonder.
+
+He drove the Marrakesh Treaty through the UN to end the book famine for blind readers, and told
+the Grammys that every single thing should be accessible to every single person with a
+disability. He has been asking for this for forty years. He has not asked us, and owes us
+nothing.
+
+Everything in this document is the work up to that demo. If it does not convince him, it is not
+finished.
+
 Only Phase 1 is a commitment. Architecture, models, funding, and hosting belong to each repo.

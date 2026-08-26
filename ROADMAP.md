@@ -63,6 +63,18 @@ form needs to fill it in and send it back — without a third party in the middl
 
 *And for everyone:* paperwork you can talk your way through instead of reading.
 
+## Milestone — the demo
+
+Phase 2's public app, plus the first of Phase 5: an app that sees the world, not only
+documents. We take it to Stevie Wonder.
+
+He spent decades getting the Marrakesh Treaty through the UN so blind readers could get books
+at all, and he has said plainly that everything should be accessible to everyone. He is the
+hardest and most credible audience this work has, and nothing here is a commitment on his part
+— he has not been asked yet.
+
+This is the bar the earlier phases are built to clear, and the reason speed is the strategy.
+
 ## Phase 3 — Documents at scale, everywhere they live
 
 The billions of documents already published, in the systems people already use. The work here

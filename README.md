@@ -7,6 +7,9 @@
 We start by making PDFs and other documents accessible. The service that does it is
 [equalify-iris](https://github.com/EqualifyEverything/equalify-iris).
 
+The near-term goal is an app that can see the world, demonstrated to Stevie Wonder. See
+[PRD.md](PRD.md).
+
 **This repo is the hub.** It holds the requirements, the roadmap, and the list of projects. The
 code lives in the projects below.
 
