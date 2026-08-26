@@ -37,7 +37,9 @@ information accurately enough to be trusted.
   a human transcript, reading-order and table correctness, invented-content rate,
   dropped-content rate, time, and cost with the hardware it assumes. Free configuration and
   best configuration, side by side. A release that raises invented content does not ship.
-- Deployment anyone can stand up in under a day, on one rentable GPU
+- Deployment anyone can stand up in under a day, on one rentable GPU, on infrastructure they
+  pick. Every hosted provider sits behind a swappable interface; the AWS Terraform is one
+  example deployment, not the supported one.
 
 *And for everyone:* any document becomes something you can ask questions of, rather than a
 page you have to find your way around.

@@ -45,6 +45,11 @@ and a hosted service never distributes. Anyone may run Iris or charge for it; an
 modifies it and serves it over a network owes their users the source. What is released stays
 free.
 
+A licence to run Iris is worthless if Iris only runs on one company's platform. Nothing in Iris
+may require a proprietary tool or service. Every hosted provider is a swappable option behind
+an interface, never a dependency, and every part deploys on infrastructure its operator picks.
+Cloud-specific deployments are examples, not the path.
+
 ### 3. Cheap devices, best tools
 
 A cheap Android phone on a slow connection that drops — camera as well as screen — is what we
