@@ -27,7 +27,8 @@ Three rules hold in every phase and every repo. [PRD.md](PRD.md) has the reasoni
    and you owe your users the source.
 3. **Cheap devices, best tools.** A cheap phone on a bad connection is what we build for, and
    it caps nothing. The phone is where the answer arrives, not where the work happens. Always a
-   path that runs on one rentable GPU.
+   path that runs on one rentable GPU — which is not true yet: today the service runs only on
+   hosted, proprietary providers, and fixing that is Phase 1 work.
 
 ## Projects
 

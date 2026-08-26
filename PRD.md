@@ -2,8 +2,9 @@
 
 **Version 0.1.** A draft to argue with, not a contract.
 
-**Point Iris at anything. Ask about it. Act on the answer. Built for blind people. New for
-everyone.**
+**Point Iris at anything. Ask about it. Act on the answer.**
+
+**Built for blind people. New for everyone.**
 
 ## Why
 
