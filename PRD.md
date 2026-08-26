@@ -93,10 +93,4 @@ ship. The tools that exist have had years and still stop at describing.
 We go from reading documents, to operating devices, to sight itself, as fast as the work allows.
 [ROADMAP.md](ROADMAP.md) sequences it.
 
-## How we measure success
-
-Blind people judge whether Iris is usable, paid for that work; a checker score never stands in.
-There is no single success rate: [ROADMAP.md](ROADMAP.md) lists what each phase publishes, on a
-public corpus fixed before we test. Someone outside this team sets Iris up in a day.
-
 Only Phase 1 is a commitment. Architecture, models, funding, and hosting belong to each repo.
