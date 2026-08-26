@@ -7,6 +7,10 @@ far phases are directions, not commitments. It follows the arc laid out in
 [**Iris: Beyond Solving Blindness**](https://philosophers.group/iris-beyond-solving-blindness/)
 — documents are the proving ground, not the destination.
 
+Every phase below is bound by the three rules in [PRD.md](PRD.md): plain language, AGPL v3,
+and it runs on what people already have. A phase that can only be reached by breaking one of
+them is not on this roadmap yet.
+
 ---
 
 ## Phase 1 — Documents can be read
@@ -17,9 +21,11 @@ Convert inaccessible documents into accessible HTML. A PDF that a screen reader 
 becomes a real web page that it can. Prove the core claim: that software can interpret visual
 information accurately enough to be trusted.
 
-- Image-to-accessible-HTML service, open source
-- Measurable success rate, latency, and cost per page over a real-world corpus
-- Deployment anyone can stand up
+- Image-to-accessible-HTML service, AGPL v3
+- Output that loads on a cheap phone over a bad connection and needs no JavaScript to read
+- Measurable success rate, latency, and cost per page over a real-world corpus — published
+  for the free configuration and the best one, side by side
+- Deployment anyone can stand up, on hardware they can rent
 
 ## Phase 2 — Documents can be completed
 
@@ -58,6 +64,9 @@ can also speak to the device, it can operate it.
 - No screen reader, no per-device accessibility settings, no waiting on manufacturers
 - Iris as the accessibility interface: a universal layer between people and the visual
   technology around them
+
+New hardware never becomes the only way in. Everything from here on has to keep working for
+someone holding an ordinary phone, or it is a product for the wealthy wearing our name.
 
 ## Phase 6 — SightOS
 

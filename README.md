@@ -24,6 +24,14 @@ part keeps its own repo, listed below.
 Per-component requirements and design live in each component's own repo. This repo holds the
 requirements that span them.
 
+Three rules hold everywhere in Iris, in every phase and every repo — they're set out in
+[PRD.md](PRD.md):
+
+1. **Plain language.** What Iris hands back, and everything we write about it.
+2. **AGPL v3.** Anyone may run it, anyone may sell it, nobody may take it private.
+3. **It runs on what people have.** A cheap phone on a bad connection is the reference, and
+   any group can run all of Iris on hardware they can rent.
+
 ## The parts
 
 | Repo | What it is |
@@ -65,4 +73,4 @@ belong here. Bugs and changes in a specific component belong in that component's
 
 ## License
 
-See [LICENSE](LICENSE).
+GNU Affero General Public License, version 3. See [LICENSE](LICENSE).
